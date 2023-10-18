@@ -1,5 +1,7 @@
 x = input("enter something : ")
-if x == x[::-1] :
-    print ("palindrome")
+A = x.upper()
+B = x.upper()
+if A == B[::-1] :
+    print (x,"palindrome")
 else:
-    print ("not palindrome")
+    print (x,"not palindrome")
